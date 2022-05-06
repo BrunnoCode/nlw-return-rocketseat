@@ -28,6 +28,8 @@ body {
   font-size: 1.6rem;
 
   text-align: center;
+
+  overflow: overlay;
 }
 
 ul {
@@ -151,7 +153,7 @@ nav.scroll svg:nth-child(1) path {
   fill: white;
 }
 
-nav.scroll svg:nth-child(2) path {
+nav.scroll button path {
   stroke: white;
 }
 
@@ -163,9 +165,11 @@ nav button {
 
 /*##########################--MENU EXPANDED--##################################*/
 .menu,
-.close-menu {
+.close-menu,
+body.menu-expanded .open-menu {
   opacity: 0;
   visibility: hidden;
+  
 }
 
 body.menu-expanded .menu,
