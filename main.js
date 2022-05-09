@@ -29,4 +29,5 @@ ScrollReveal({
  #services .card
  #about,
  #about header,
- #about .content`);
+ #about .content,
+ #back-about`);

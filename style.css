@@ -57,8 +57,9 @@ img {
   max-width: 100%;
 }
 
-section {
+section  {
   padding-block: 10rem;
+  
 }
 
 section header h4 {
@@ -354,9 +355,24 @@ body.menu-expanded button path {
 
 /*############################...ABOUT...#################################*/
 
+#about {
+    background-color: var(--brand-beige);
+    width: 37.7rem;
+    padding-block: 4rem;
+    margin-inline: auto;
+  
+    background-color: var(--brand-beige);
+    border: 1px solid var(--brand-light);
+    border-radius: 0.6rem;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #about h4 {
   text-align: left;
-  background-color: var(--brand-beige);
+  
 }
 
 #about header h2 {
@@ -367,3 +383,32 @@ body.menu-expanded button path {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
 }
+
+
+/*############################...CONTACT...#################################*/
+
+ 
+#contact {
+  text-align: left;
+}
+
+#contact header {
+  margin-bottom: 3.2rem;
+}
+
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+
+ 
+  
+  
