@@ -232,6 +232,12 @@ body.menu-expanded .menu {
   text-decoration: none;
 }
 
+.menu .button:hover {
+  background-color: var(--brand-dark-hover);
+  color: white;
+transition: 400ms;
+}
+
 .menu .button {
   background: white;
   border-radius: 4rem;
@@ -248,6 +254,7 @@ body.menu-expanded .menu {
 
   margin-top: 4.8rem;
   margin-bottom: 8rem;
+
 }
 
 .social-links {
